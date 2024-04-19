@@ -1,0 +1,87 @@
+.payment_margin {
+  margin: 60px 0px 60px 0px;
+}
+@media only screen and (max-width: 950px) {
+  .mar-bot {
+    margin-bottom: 60px;
+  }
+}
+.card-bg {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+.img_72 {
+  position: relative;
+  background-color: #f2f4f7;
+}
+.img_69 {
+  position: absolute;
+  bottom: 180px;
+  right: -10px;
+}
+@media only screen and (max-width: 650px) {
+  .img_69 {
+    position: absolute;
+    width: 200px;
+    bottom: 185px;
+    right: -10px;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 950px) {
+  .img_69 {
+    position: absolute;
+    width: 350px;
+    bottom: 140px;
+    right: -10px;
+  }
+}
+.body-pad {
+  padding: 12px;
+}
+.paymet-head {
+  color: var(--gray-900, #101828);
+  /* font-family: Inter; */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+}
+.paymet-text {
+  text-align: start;
+  color: rgba(71, 84, 103, 1);
+  /* font-family: 'Inter'; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.background-circle {
+  background-color: rgba(218, 238, 255, 1);
+  color: rgba(21, 112, 239, 1);
+  border-radius: 99px;
+  padding: 4px;
+}
+.arrow-align {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.pay-arrows {
+  color: var(--gray-800, #1d2939);
+  /* font-family: Inter; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.pay-arr-text {
+  color: var(--gray-600, #475467);
+  margin: -10px 0px 0px 35px;
+  /* font-family: Inter; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 20px;
+}

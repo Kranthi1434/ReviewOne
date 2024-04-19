@@ -1,0 +1,79 @@
+.footer-bg {
+  background-color: rgba(189, 226, 255, 1);
+  padding: 48px 0px 48px 0px;
+}
+.footer-heading {
+  color: rgba(24, 97, 221, 1);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 38px;
+}
+.footer-text {
+  color: rgba(71, 84, 103, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+Button .primary-two {
+  background-color: rgba(21, 112, 239, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  padding: 12px 24px 12px 24px;
+}
+@media only screen and (max-width: 650px) {
+  .top-margin {
+    margin-top: 20px;
+  }
+}
+input[type="text"].input-feild {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 12px, 14px, 12px, 14px;
+  border: 1px;
+  border-radius: 4px;
+}
+.footer-bottom {
+  padding: 64px 0px 48px 0px;
+}
+.footer-head {
+  color: rgba(16, 24, 40, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+}
+@media only screen and (max-width: 650px) {
+  .footer-head {
+    margin-top: 30px;
+  }
+}
+.footerText {
+  color: grey;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.footer-logo-bot {
+  color: grey;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.line-style {
+  margin-top: 50px;
+  color: grey;
+  border: 1px solid;
+}
+@media only screen and (max-width: 650px) {
+  .small-center {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .center-image {
+    margin: auto;
+  }
+}
+.footer-last-text {
+  display: flex;
+  justify-content: space-between;
+}

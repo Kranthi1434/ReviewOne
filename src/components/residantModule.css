@@ -1,0 +1,33 @@
+.link-style {
+  color: var(--blue-ribbon-500, #3696fb);
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+.module-heading {
+  color: var(--gray-900, #101828);
+  /* Display xs/Semibold */
+  /* font-family: Inter; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  padding-bottom: 38px;
+}
+.light-background {
+  background-image: url("E:\REACT\new-figma\src\assets\images\Rectangle 376.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 533px;
+}
+@media only screen and (max-width: 650px) {
+  .light-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+  }
+}

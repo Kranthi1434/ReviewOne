@@ -1,0 +1,40 @@
+.residant_bg {
+  background-color: #eff8ff;
+}
+.resident_wrap {
+  margin-top: 200px;
+}
+.resident_wrap h1 {
+  color: rgba(16, 24, 40, 1);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  font-style: normal;
+  font-family: "Inter_Bold";
+  letter-spacing: -0.96px;
+}
+.resident_wrap p {
+  color: var(--gray-600, #475467);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 24px;
+}
+.banner_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: fit-content;
+  width: -webkit-fill-available;
+}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .resident_wrap {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .resident_wrap h1 {
+    font-size: 38px;
+  }
+}
